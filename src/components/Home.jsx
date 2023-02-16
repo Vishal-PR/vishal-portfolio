@@ -16,9 +16,9 @@ const Home = () => {
                     I have intrested in frontend like react Js.
                 </p>
                 <div>
-                    <Link to='experience' smooth duration={1000} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
+                    <Link to='portfolio' smooth duration={1000} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
                     bg-gradient-to-r from-orange-500 to-orange-300 cursor-pointer'>
-                        Experience
+                        Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
                             <HiOutlineArrowSmRight size={25} className='ml-1'/>
                         </span>
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img src={Profilephoto}  alt="my profile" className='rounded-2xl mx-auto w-2/6 md:w-full' />
+                <img src={Profilephoto}  alt="my profile" className='rounded-2xl mx-auto w-4/6 md:w-full' />
             </div>
         </div>
     </div>
