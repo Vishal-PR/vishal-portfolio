@@ -36,8 +36,8 @@ function Portfolio() {
 
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
         {portfolios.map(({id,src}) => (
-          
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
+            <div key={id}>
+            <div className="shadow-md shadow-gray-600 rounded-lg ">
               <img
                 src={src}
                 alt=""
@@ -47,12 +47,15 @@ function Portfolio() {
                 <button onClick={()=>handleDemoProject(id)} className="w-1/2 px-6 -py-3 m-4 duration-200 hover:scale-110">
                   Demo
                 </button>
-                <button className="w-1/2 px-6 -py-3 m-4 duration-200 hover:scale-110">
+                {/* <button className="w-1/2 px-6 -py-3 m-4 duration-200 hover:scale-110">
                   Code
-                </button>
-              </div>
+                </button> */}
+              </div>  
             </div>
-          
+            <div className="flex items-center justify-center mt-4 ">
+                    <h2 className="text-2xl">Weather App </h2>
+            </div>
+          </div>
         ))}
         </div>
       </div>
