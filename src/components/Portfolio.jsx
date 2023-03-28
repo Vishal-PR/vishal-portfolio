@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherApp from "../assets/weatherApp.png";
+import InstagraImg from "../assets/instagram ui clone.png"
 
 function Portfolio() {
   const portfolios = [
@@ -14,6 +15,12 @@ function Portfolio() {
       src: "https://assets.nflxext.com/ffe/siteui/vlv3/d54727b4-2ad9-4e71-bb48-0899f55f103a/4ce96108-1f99-4476-ba90-af8b26d471e7/IN-en-20230220-popsignuptwoweeks-perspective_alpha_website_large.jpg",
       href:"https://netflix-clone-react-1c7f3.web.app",
       projectName: "NetFlix Clone"
+    },
+    {
+      id:3,
+      src: InstagraImg,
+      href:"https://beamish-dodol-e511bb.netlify.app/",
+      projectName: "Instagram Clone"
     }
     
   ];
