@@ -33,7 +33,7 @@ const Navbar = () => {
       className="flex justify-between items-center w-full h-20
     px-4 text-white bg-black fixed"
     >
-      <h1 className="font-signature text-6xl ml-2">Vishal</h1>
+      <h1 className="font-signature text-4xl ml-2">Vishal Pippirichetti</h1>
 
       <ul className="hidden md:flex">
         {menus.map(({ id, menu }) => (
